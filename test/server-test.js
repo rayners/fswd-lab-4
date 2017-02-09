@@ -1,5 +1,7 @@
 'use strict';
 
+process.env.NODE_ENV = 'test';
+
 // code to test
 var server = require('../lib/server');
 

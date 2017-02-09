@@ -1,8 +1,8 @@
 extends ./layout.jade
 
 block body
-  p
-    | Hello, #{name} 
+  p.lead
+    | Hello, #{name}
     if lastName
       | #{lastName}
     | !
@@ -12,4 +12,4 @@ block body
     else if inseam > 34
       p Wow, you are tall!
     else
-      p And I understand your inseam is #{inseam}" inches!
+      p And I understand your inseam is #{inseam} inches!
